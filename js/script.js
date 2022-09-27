@@ -64,7 +64,7 @@ function addPagination(list) {
 
 // Highlights 'active' page when user clicks on the page buttons.
     linkListUL.addEventListener("click", (e) => {
-      if (e.target.tagname === "BUTTON") {
+      if (e.target.tagName === "BUTTON") {
          document.querySelector('.active').className = '';
          e.target.className = "active";
 
